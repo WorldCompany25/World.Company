@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WorldCompany - Tu compañía ideal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #007BFF, #00C6FF);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .cta {
+      background: #fff;
+      color: #007BFF;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #007BFF;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .feature-box {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+    }
+    .precios ul {
+      list-style: none;
+      padding: 0;
+    }
+    .precios li {
+      margin-bottom: 10px;
+    }
+    .social a {
+      color: #007BFF;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .apps a {
+      display: inline-block;
+      background: #007BFF;
+      color: #fff;
+      padding: 12px 20px;
+      margin: 10px 5px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .testimonios {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .testimonios p {
+      font-style: italic;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WorldCompany</h1>
+    <p>Tu compañía ideal para cualquier momento o plan</p>
+    <a href="#contacto" class="cta">Contáctanos</a>
+  </header>
+
+  <section id="servicios">
+    <h2>¿Qué es WorldCompany?</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Compañía para cualquier ocasión</h3>
+        <p>Desde citas y eventos sociales hasta paseos o reuniones. Nunca más estarás solo.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Presencia global</h3>
+        <p>Disponible en todo el mundo gracias a nuestra app. Te conectamos donde estés.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Servicio profesional</h3>
+        <p>Con respeto, confidencialidad y puntualidad garantizados.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="precios">
+    <h2>Precios</h2>
+    <div class="precios">
+      <ul>
+        <li><strong>Por hora:</strong> 15 € / hora</li>
+        <li><strong>Por kilómetro:</strong> 5 € / km</li>
+        <li><strong>Planes especiales:</strong> consultar por email</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="testimonios">
+    <h2>Testimonios</h2>
+    <p>"Gracias a WorldCompany fui a mi boda de ex sin drama y con estilo. ¡Increíble!" - Carla G.</p>
+    <p>"Recomiendo 100%. Puntuales, amables y muy discretos." - Juan M.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Email:</strong> <a href="mailto:world.company@gmail.com">world.company@gmail.com</a></p>
+    <p>Síguenos en redes:</p>
+    <p class="social">
+      <a href="https://instagram.com/world.company" target="_blank">Instagram</a>
+      <a href="https://facebook.com/world.company" target="_blank">Facebook</a>
+      <a href="https://tiktok.com/@world.company" target="_blank">TikTok</a>
+      <a href="https://twitter.com/world_company" target="_blank">Twitter</a>
+    </p>
+    <h3>Descarga la app</h3>
+    <div class="apps">
+      <a href="#">Google Play</a>
+      <a href="#">App Store</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WorldCompany. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
